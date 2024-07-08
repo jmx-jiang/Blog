@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Journey</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <style>
+      body {
+        margin: auto;
+        max-width: 600px;
+      }
+
+      h1,
+      h2 {
+        font-family: Grover, sans-serif;
+      }
+
+      p,
+      li,
+      small {
+        font-family: Georgia, serif;
+      }
+
+      p {
+        font-size: larger;
+      }
+
+      small {
+        color: gray;
+        font-style: italic;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      footer {
+        margin-bottom: 20px;
+      }
+
+      @media only screen and (max-width: 650px) {
+        body {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Journey of Web Development</h1>
+    <p>
+      I am Jayden, learning about web development. This blog explains my journey of how I become a web developer. This
+      is a long but fun journey, with many exciting things that happened.
+    </p>
+    <img src="./imgs/web-development.jpg" alt="web development" width="100%" />
+
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#ch.1">What Intrested Me</a></li>
+      <li><a href="#ch.2">What I Did First</a></li>
+    </ol>
+
+    <h2 id="ch.1">What Intrested Me</h2>
+    <p>
+      It all started when I planned to go to a summer camp on 2023. They offered a Python course. I didn't know what
+      Python was, other than being a snake. I quickly found out on google that it was a programming language, which
+      meant that I was going to learn how to code. I thought about it, and I decided to give it a try. That Python
+      course taught me the basics of Python, and I loved it.
+    </p>
+
+    <p>
+      So, what does this have to do with web development? Python is more associated with Artifical Intellegence and data
+      anaylsis, and even though its frameworks Flask and Django are for web development, Python is not the first
+      language most people think about when they talk about web development (HTML, CSS, and JavaScript come to mind
+      first.) But learning how to code the first time inspired me to get a job related to programming.
+    </p>
+
+    <p>
+      It didn't take me long to figure out how much you can do with programming, like creating websites, games, and much
+      more. But why did I choose web development? Think about how websites play a crucial role in people's lives. I
+      think there's not many people who never been on a website (If you are reading this, you are on a website.) Web
+      developers are also in demand as well.
+    </p>
+
+    <h2 id="ch.2">What I Did First</h2>
+    <p>
+      I knew that the core languages of web development are HTML, CSS, and JavaScript. I found a website called
+      W3Schools, and I read through the tutorials for the corresponding languages and tested out the examples. From my
+      past experience from Python, I knew that just reading was not enough, so I went on freeCodeCamp. They taught me
+      more about HTML and CSS and guided me to build websites step by step. They also gave me assignments I had to do on
+      own.
+    </p>
+
+    <p>
+      Now that I learned the basics of HTML, CSS, and JavaScript, I also need to learn CSS and JavaScript frameworks.
+      First, I wanted to focus on a CSS framework. I decided to use bootstrap because it was very easy to use. I quickly
+      picked up on it and saw how powerful it was.
+    </p>
+
+    <p>
+      For JavaScript, choosing a framework/library was more difficult because there were more options to choose from.
+      For the frontend, I chose jQuery because I like how easily it can manipulate the DOM. For the backend, Node.js was
+      the obvious choice because of how powerful it is.
+    </p>
+
+    <footer>
+      <small>By Jayden Jiang - July 7 2024</small>
+      <br />
+      <small id="footer-text"></small>
+    </footer>
+
+    <script>
+      document.getElementById("footer-text").textContent = `© ${new Date().getFullYear()} Creator`;
+    </script>
+  </body>
+</html>
